@@ -1,6 +1,6 @@
 # Coin Calculator Rest API
 
-This is a Spring Boot project for link conversion between web and mobile requests.
+This is a Spring Boot project for coin calculation.
 
 ### REQUIREMENTS
 * Java 8
@@ -50,6 +50,11 @@ mvn test
 
 ## USAGE
 - You can use the api with Postman or Swagger like tools.
+- Once the API starts running successfully, you can visit the address below to use with Swagger:
+```
+http://localhost:8080/swagger-ui.html
+```
+- Configure host and ports if you change default settings.
 - Or you can use the api directly in your application.
 ### RULES:
 -Valid Coin Types:
@@ -85,7 +90,7 @@ max: 5000 USD/EUR
   "currencyType": "USD"
 }
 ```
-#### Example request 2:
+#### Example request 3:
 - Get all rows from db - Get Endpoint:
 ```
 /api/coins
