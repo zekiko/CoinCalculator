@@ -9,8 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.calculator</groupId>
-	<artifactId>coin</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>coin-calculator</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
 	<name>coin-calculator</name>
 	<description>Coin calculator project for Spring Boot</description>
 	<properties>
@@ -29,11 +30,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>io.projectreactor</groupId>
-			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
