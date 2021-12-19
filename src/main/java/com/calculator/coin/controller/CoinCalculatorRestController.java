@@ -16,6 +16,11 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
+/**
+ * CoinCalculatorRestController class for rest requests from clients.
+ *
+ * @author Cagri Zeki
+ */
 @RestController
 @RequestMapping("/api")
 @Api(value="CoinCalculator Rest Service")

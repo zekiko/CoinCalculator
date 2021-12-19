@@ -3,9 +3,13 @@ package com.calculator.coin.dto.toCurrency;
 import com.calculator.coin.utils.Constants;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
-
 import javax.validation.constraints.*;
 
+/**
+ * CoinToCurrencyRequestDto class for rest request data from clients.
+ *
+ * @author Cagri Zeki
+ */
 @Api(value="Coin to currency calculation request dto")
 public class CoinToCurrencyRequestDto {
 

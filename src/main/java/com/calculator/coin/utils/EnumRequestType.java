@@ -1,5 +1,10 @@
 package com.calculator.coin.utils;
 
+/**
+ * EnumRequestType enum.
+ *
+ * @author Cagri Zeki
+ */
 public enum EnumRequestType {
     BTC_USD(Constants.BTC_USD_ENDPOINT, "BTC-USD"),
     BTC_EUR(Constants.BTC_EUR_ENDPOINT, "BTC-EUR"),

@@ -2,10 +2,15 @@ package com.calculator.coin.service.factory;
 
 import com.calculator.coin.service.CoinService;
 import org.springframework.stereotype.Component;
-
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * CoinCalculatorFactory class implements factory method.
+ * Supplies appropriate coin calculator service.
+ *
+ * @author Cagri Zeki
+ */
 @Component
 public class CoinCalculatorFactory {
 

@@ -6,8 +6,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.Date;
 
+/**
+ * CoinEntity class
+ * Main data object written to database table.
+ * Handled with Spring Data JPA
+ *
+ * @author Cagri Zeki
+ */
 @Entity
 @Table(name = "coin_calculation_table")
 public class CoinEntity {

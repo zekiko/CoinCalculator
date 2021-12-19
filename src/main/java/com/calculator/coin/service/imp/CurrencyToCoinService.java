@@ -18,6 +18,12 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Map;
 
+/**
+ * CurrencyToCoinService class.
+ * Calculates coin amount with coin/currency data.
+ *
+ * @author Cagri Zeki
+ */
 @Component
 public class CurrencyToCoinService implements CoinService<CurrencyToCoinRequestDto, CurrencyToCoinResponseDto> {
     private static final Logger LOGGER = LoggerFactory.getLogger(CurrencyToCoinService.class);

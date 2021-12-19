@@ -1,6 +1,5 @@
 package com.calculator.coin.service.restClient;
 
-import com.calculator.coin.exception.ControllerAdvisor;
 import com.calculator.coin.utils.Constants;
 import com.calculator.coin.utils.EnumRequestType;
 import com.google.gson.Gson;
@@ -15,11 +14,17 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.PostConstruct;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * CoinDataService class.
+ * Applies rest calls to blockchain.com for getting real data.
+ * Writes data to coinData map.
+ *
+ * @author Cagri Zeki
+ */
 @EnableScheduling
 @Service
 public class CoinDataService {

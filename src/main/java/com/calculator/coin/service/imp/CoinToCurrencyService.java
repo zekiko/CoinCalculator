@@ -17,6 +17,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Map;
 
+/**
+ * CoinToCurrencyService class.
+ * Calculates fiat currency with coin/currency data.
+ *
+ * @author Cagri Zeki
+ */
 @Component
 public class CoinToCurrencyService implements CoinService<CoinToCurrencyRequestDto, CoinToCurrencyResponseDto> {
     private static final Logger LOGGER = LoggerFactory.getLogger(CoinToCurrencyService.class);

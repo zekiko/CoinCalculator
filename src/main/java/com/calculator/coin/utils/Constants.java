@@ -1,5 +1,11 @@
 package com.calculator.coin.utils;
 
+/**
+ * Constants class.
+ * Provides manageable fields.
+ *
+ * @author Cagri Zeki
+ */
 public class Constants {
     //endpoints
     public static final String BTC_USD_ENDPOINT = "https://api.blockchain.com/v3/exchange/tickers/BTC-USD";

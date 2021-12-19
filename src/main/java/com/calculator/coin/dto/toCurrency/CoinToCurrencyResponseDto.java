@@ -1,5 +1,10 @@
 package com.calculator.coin.dto.toCurrency;
 
+/**
+ * CoinToCurrencyResponseDto class for rest response data returned to clients.
+ *
+ * @author Cagri Zeki
+ */
 public class CoinToCurrencyResponseDto {
     private float currencyAmount;
 
